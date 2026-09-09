@@ -20,8 +20,8 @@ on:
           - filter
           - enum_operators
 
-  schedule:
-    - cron: '59 20 19 12 *'  # UTC: 20:59 = 23:59 MSK 19 December
+  # schedule:
+  #   - cron: '59 20 19 12 *'  # UTC: 20:59 = 23:59 MSK 19 December
 
 jobs:
   test:
