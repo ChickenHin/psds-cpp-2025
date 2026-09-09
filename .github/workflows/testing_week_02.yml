@@ -17,8 +17,8 @@ on:
           - little_big
           - pretty_array
 
-  schedule:
-    - cron: '59 20 11 12 *'  # UTC: 20:59 = 23:59 MSK 11 December
+  # schedule:
+  #   - cron: '59 20 11 12 *'  # UTC: 20:59 = 23:59 MSK 11 December
 
 jobs:
   test:
